@@ -59,6 +59,8 @@
     "witsec-jquery": "3.6.0",
     "witsec-mailform": false,
     "witsec-white-label": true,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@",
     "site_lang": "en",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin/\nSitemap: https://oakcityadvisorsllc.com/sitemap.xml\n"
   },
