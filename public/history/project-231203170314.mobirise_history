@@ -48,19 +48,17 @@
     "versionPublish": "5.9.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/1603894128140.ico",
-    "mbrsiteDomain": "wdahfzdiyr",
+    "mbrsiteDomain": "2l037xrliv",
     "usedWebp": true,
-    "robotsSwitcher": true,
-    "sitemapSwitcher": true,
-    "sitemapSwitcherAuto": "on",
-    "siteUrl": "https://oakcityadvisorsllc.com/sitemap.xml",
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "witsec-jquery": "3.6.0",
+    "witsec-jquery": false,
     "witsec-mailform": false,
-    "witsec-white-label": true,
-    "site_lang": "en",
-    "robotsText": "User-agent: *\nDisallow: /cgi-bin/\nSitemap: https://oakcityadvisorsllc.com/sitemap.xml\n"
+    "witsec-white-label": false
   },
   "pages": {
     "index.html": {
@@ -705,8 +703,7 @@
             },
             ".mbr-section-head": {
               "margin-bottom": "2rem",
-              "position": "relative",
-              "z-index": "1"
+              "position": "relative"
             },
             ".item-wrapper": {
               "border-radius": "4px",
@@ -1026,7 +1023,8 @@
             },
             ".image-wrapper": {
               "display": "flex",
-              "align-items": "center"
+              "align-items": "center",
+              "height": "365px"
             },
             ".card-wrapper": {
               "&:not(:nth-last-child(1))": {

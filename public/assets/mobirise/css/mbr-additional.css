@@ -1168,6 +1168,8 @@ a {
 .cid-tV1DvILxpb .img-wrapper {
   text-align: center;
   padding-bottom: 2rem;
+  display: flex;
+  height: 90px;
 }
 .cid-tV1DvILxpb img {
   margin: auto;
@@ -1175,6 +1177,11 @@ a {
 }
 .cid-tV1DvILxpb .row {
   align-items: flex-start;
+}
+.cid-tV1DvILxpb .mbr-section-head {
+  margin-bottom: 2rem;
+  position: relative;
+  z-index: 1;
 }
 .cid-tV1DvILxpb .item-wrapper {
   border-radius: 4px;
@@ -1194,6 +1201,9 @@ a {
   .cid-tV1DvILxpb .item-wrapper {
     padding: 1rem;
   }
+}
+.cid-tV1DvILxpb .mbr-section-title {
+  color: #000000;
 }
 .cid-tV1Dy22SNe {
   padding-top: 5rem;
